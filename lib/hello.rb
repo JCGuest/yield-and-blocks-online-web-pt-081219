@@ -1,10 +1,14 @@
 def hello_t(arry)
+ if block_given?
   i = 0 
   while i < arry.length
     yield arry[i]
     i = i + 1
   end
   arry
+else
+  puts "Hey! No blcok was given"
+  end  
 end
 
 
