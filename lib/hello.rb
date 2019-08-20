@@ -7,7 +7,7 @@ def hello_t(arry)
   end
   arry
 else
-  puts "Hey! No blcok was given"
+  puts "Hey! No blcok was given!"
   end  
 end
 
