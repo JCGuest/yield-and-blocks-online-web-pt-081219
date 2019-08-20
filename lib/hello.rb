@@ -4,6 +4,7 @@ def hello_t(arry)
     yield arry[i]
     i = i + 1
   end
+  arry
 end
 
 
